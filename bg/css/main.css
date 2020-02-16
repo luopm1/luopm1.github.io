@@ -1,0 +1,81 @@
+*,
+body {
+  padding: 0;
+  margin: 0;
+  /* overflow: hidden; */
+  color: white;
+  font-size: 1.1em;
+  font-family: "Open Sans Condensed", sans-serif;
+}
+
+body {
+  background-color: rgb(165, 127, 127);
+  background-image: linear-gradient(90deg, #e94311, #061258);
+}
+
+.wraper {
+  background-image: url("../img/bird.png");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-attachment: fixed;
+}
+
+.container {
+  /* background-color: rgb(50, 206, 22); */
+  /* background-image: url("../img/ava7patterns_pattern_1015.png"),
+    url("../img/ava7patterns_pattern_1015.png");
+  background-repeat: repeat-y, repeat-x; */
+  /* background-color: rgb(194, 194, 194); */
+}
+
+.me_block {
+  width: 80%;
+  color: rgb(255, 255, 255);
+  background-image: linear-gradient(125deg, #e94311, #061258);
+  background-image: url("../img/bird.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.me_fas {
+  color: white;
+}
+
+.item1,
+.item3 {
+  background-color: rgb(57, 57, 57);
+}
+
+.item2 {
+  background-image: url("../img/Screenshot_1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  text-shadow: 1px 1px 2px black, 0 0 1em rgb(0, 0, 0);
+}
+.mynew{
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+.reclama{
+  position: relative;
+  height: 400px;
+  background-color: black;
+}
+.mebutton{
+  width: 261px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.mebutton1{
+  position: absolute;
+  top: -14px;
+  left: 46%;
+}.qwer{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
